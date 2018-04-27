@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MatBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rivescript/1.19.0/rivescript.min.js"></script>
+</head>
+
+<body>
+    <h1>MatBot</h1>
+    
+    <p>
+        <textarea output id="chat_window" rows=10 cols=80 wrap=on readonly>MB: Hej :-) Jeg er MatBot.</textarea>
+    </p>
+    
+    <p>
+        Input: <input type="text" id="user_input">
+        <button onclick="send_input()">Submit</button>    
+    </p>
+    
+</body>
+
+<footer>
+    <script src="matbot.js"></script>
+</footer>
+</html>
